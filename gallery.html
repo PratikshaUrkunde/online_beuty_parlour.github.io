@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="gallery-section">
+        <div class="inner-width">
+            <h1>Service Gallery</h1>
+            <div class="border"></div>
+            <div class="gallery">
+
+                <a href="img/makeup1.jpg" class="image">
+                    <img src="img/makeup1.jpg" alt="">
+                </a>
+
+                <a href="img/nail.jpg" class="image">
+                    <img src="img/nail.jpg" alt="">
+                </a>
+
+                <a href="img/safe.jpg" class="image">
+                    <img src="img/safe.jpg" alt="">
+                </a>
+                <a href="img/makeup.png" class="image">
+                    <img src="img/makeup.png" alt="">
+                </a>
+                
+                <a href="img/hairstyle1.jpg" class="image">
+                    <img src="img/hairstyle1.jpg" alt="">
+                </a>
+                
+                <a href="img/facial.jpg" class="image">
+                    <img src="img/facial.jpg" alt="">
+                </a>
+                
+                <a href="img/facepack.jpg" class="image">
+                    <img src="img/facepack.jpg" alt="">
+                </a>
+                
+                <a href="img/haircut.jpg" class="image">
+                    <img src="img/haircut.jpg" alt="">
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $(".gallery").magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    </script>
+
+</body>
+
+</html>
